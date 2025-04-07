@@ -487,6 +487,10 @@ Tried multiple wordlists under Web-Content. directory-list-2.3-medium, dsstorewo
 
 Trying the much larger /usr/share/wordlists/seclists/Discovery/DNS/dns-Jhaddix.txt got me silverpeas which ends up with a login page. There was that "scr1ptkiddy" account found possibly from earlier, I'll try to brute force that tomorrow as it's late now (0230~ EST)
 
+Found some credentials:
+tim
+cm0nt!md0ntf0rg3tth!spa$$w0rdagainlol
+
 # Exploitation
 
 # Post Exploitation
