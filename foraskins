@@ -1,0 +1,12 @@
+Get-WinEvent crafted
+Get-WinEvent -FilterHashtable @{Path='C:\Tools\chainsaw\EVTX-ATTACK-SAMPLES\Lateral Movement\*'; ID=5142} | Select-Object -Property *
+ 
+Get-WinEvent -FilterHashtable @{Path='C:\Logs\Dump\*' -like "*lsass.exe"; ID=10}
+ 
+Where-Object {$_.Message -like “*inserthere*heretoo*” -and $_.Message -like “*morestuff*here*”}
+2022-04-28 02:08:47.827
+2022-04-28 02:08:56.843
+ 
+ 
+4/27/2022 7:08:47 PM
+4/27/2022 7:08:56 PM   
